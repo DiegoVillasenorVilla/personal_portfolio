@@ -1,7 +1,8 @@
-.body-section{
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
+.body-section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 150px;
 }
 
 .body-main_container {
@@ -20,4 +21,10 @@
   letter-spacing: -2.5px;
   color: #ffffff;
   margin: 0;
+}
+
+.body-images_container{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-gap: 40px;
 }

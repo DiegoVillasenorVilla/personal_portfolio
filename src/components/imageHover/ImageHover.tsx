@@ -25,8 +25,8 @@ export const ImageHover = ({
         </div>
       </figure>
       <div className="project-info_container">
-        <p>{projectName}</p>
-        <span>{technologies}</span>
+        <p>{projectName.toUpperCase()}</p>
+        <span>{technologies.toUpperCase()}</span>
       </div>
     </div>
   );
