@@ -1,0 +1,23 @@
+.body-section{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.body-main_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 660px;
+}
+
+.body-main_container h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  color: #ffffff;
+  margin: 0;
+}

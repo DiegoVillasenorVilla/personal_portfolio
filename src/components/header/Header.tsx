@@ -1,11 +1,11 @@
 import React from "react";
+import { ButtonLink } from "../buttonLink/ButtonLink";
 import portrait from "../../assets/img_cv.jpg";
 import github from "../../assets/github.svg";
 import linkedln from "../../assets/linkedln.svg";
 import "./Header.css";
 
 export const Header = () => {
-  const link = "https://preguntarepuesta.com/crear-boton-html-actua-como-link";
   return (
     <section className="header-section">
       <div className="header-container">
@@ -22,7 +22,7 @@ export const Header = () => {
             person, <br />I like challenges, I am competitive and I know how to
             work in a team.
           </p>
-          <button className="button_contact"> Contact Me</button>
+          <ButtonLink label="Contact Me"/>
         </div>
         <div className="header-container_portrait">
           <div className="icons-container">
