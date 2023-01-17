@@ -1,6 +1,7 @@
 .header-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .header-container {
@@ -8,8 +9,13 @@
   flex-direction: row;
   border-bottom: 1px solid #ffffff;
 }
+.header-container_info{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 
-h1 {
+.name-paragraph {
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 700;
@@ -20,8 +26,7 @@ h1 {
   margin-bottom: 100px;
 }
 
-.header-info_greetings,
-.header-info_name {
+.header-info_greetings, strong{
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 700;
@@ -29,7 +34,11 @@ h1 {
   line-height: 88px;
   letter-spacing: -2.5px;
   color: #ffffff;
-  margin: auto;
+  margin: 0;
+}
+
+strong{
+  border-bottom: 4px solid  #4ee1a0;
 }
 
 .presentation {

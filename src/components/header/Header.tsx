@@ -10,9 +10,10 @@ export const Header = () => {
     <section className="header-section">
       <div className="header-container">
         <div className="header-container_info">
-          <h1>Diego Villaseñor Villa</h1>
-          <p className="header-info_greetings">Nice to meet you!</p>
-          <p className="header-info_name"> I'm Diego V.V</p>
+          <p className="name-paragraph">Diego Villaseñor Villa</p>
+          <h1 className="header-info_greetings">
+            Nice to meet you! <br /> <strong> I'm Diego V.V</strong>
+          </h1>
           <p className="presentation">
             Software engineer recently graduated from the University of Colima
             <br />
@@ -22,7 +23,7 @@ export const Header = () => {
             person, <br />I like challenges, I am competitive and I know how to
             work in a team.
           </p>
-          <ButtonLink label="Contact Me"/>
+          <ButtonLink label="Contact Me" />
         </div>
         <div className="header-container_portrait">
           <div className="icons-container">

@@ -1,13 +1,17 @@
-
-.App{
-  background-color: #151515;
-  height: auto;
-  width: auto;
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.App {
+  background-color: #151515;
+  height: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
 }
-
