@@ -7,6 +7,8 @@ interface ImageProps {
   position: number;
   projectName: string;
   technologies: string;
+  linkToProject?: string;
+  linkToCode?: string;
 }
 
 export const ImageHover = ({
@@ -14,14 +16,20 @@ export const ImageHover = ({
   position,
   projectName,
   technologies,
+  linkToProject,
+  linkToCode,
 }: ImageProps) => {
   return (
     <div className="image-hover_container">
       <figure className="figure-image">
         <img src={images[position]} className="project-image" />
         <div className="hidden-button_container">
-          <ButtonLink label="View Project" />
-          <ButtonLink label="View Code" />
+          <button className="button-contact_project">
+            <a href={linkToProject}>View Project</a>
+          </button>
+          <button className="button-contact_code">
+            <a href={linkToCode}>View Code</a>
+          </button>
         </div>
       </figure>
       <div className="project-info_container">

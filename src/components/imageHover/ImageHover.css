@@ -24,6 +24,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
   top: 0;
   width: 100%;
@@ -34,6 +35,39 @@
   visibility: hidden;
   text-align: center;
   padding-top: 70px;
+}
+
+.button-contact_project,
+.button-contact_code {
+  border: none;
+  border-bottom: 1px solid #4ee1a0;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40%;
+}
+
+.button-contact_project > a {
+  outline: none;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.28571px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button-contact_code > a {
+  outline: none;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.28571px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .figure-image:hover > .hidden-button_container {
