@@ -10,7 +10,7 @@ export const ButtonLink = ({ label, link }: ButtonProps) => {
   return (
     <>
       <button className="button_contact">
-        <a href={link}>{label}</a>
+        <a href={link}>{label.toUpperCase()}</a>
       </button>
     </>
   );

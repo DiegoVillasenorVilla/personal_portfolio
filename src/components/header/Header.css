@@ -7,6 +7,7 @@
 .header-container {
   display: flex;
   flex-direction: row;
+  gap: 500px;
   border-bottom: 1px solid #ffffff;
 }
 .header-container_info{
@@ -89,8 +90,8 @@ strong{
 
 .portrait {
   filter: grayscale(100%);
-  width: 400px;
-  height: 600px;
+  width: 500px;
+  height: 700px;
 }
 
 

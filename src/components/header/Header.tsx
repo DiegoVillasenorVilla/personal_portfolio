@@ -1,8 +1,6 @@
 import React from "react";
 import { ButtonLink } from "../buttonLink/ButtonLink";
-import portrait from "../../assets/img_cv.jpg";
-import github from "../../assets/github.svg";
-import linkedln from "../../assets/linkedln.svg";
+import{Github, Linkedln, Portrait} from "../../assets";
 import "./Header.css";
 
 export const Header = () => {
@@ -27,15 +25,15 @@ export const Header = () => {
         </div>
         <div className="header-container_portrait">
           <div className="icons-container">
-            <a>
-              <img src={github} alt="github" />
+            <a href="https://github.com/DiegoVillasenorVilla" style={{cursor:"pointer"}}>
+              <img src={Github} alt="github" />
             </a>
-            <a>
-              <img src={linkedln} alt="linkedin" />
+            <a href="https://www.linkedin.com/in/diego-villase%C3%B1or-villa-b653b822b/" style={{cursor:"pointer"}}>
+              <img src={Linkedln} alt="linkedin" />
             </a>
           </div>
           <div>
-            <img src={portrait} className="portrait" />
+            <img src={Portrait} className="portrait" />
           </div>
         </div>
       </div>

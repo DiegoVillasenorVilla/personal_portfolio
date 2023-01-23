@@ -1,9 +1,9 @@
 .button_contact {
   border: none;
-  border-bottom: 1px solid #4ee1a0;
+  border-bottom: 2px solid #4ee1a0;
   background-color: transparent;
   cursor: pointer;
-  width: 120px;
+  width: 160px;
 }
 
 .button_contact > a {
