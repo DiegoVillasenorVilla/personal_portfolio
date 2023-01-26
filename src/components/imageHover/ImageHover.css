@@ -70,6 +70,10 @@
   text-decoration: none;
 }
 
+.button-contact_code > a:hover, .button-contact_project > a:hover{
+  color:#4ee1a0;
+}
+
 .figure-image:hover > .hidden-button_container {
   opacity: 1;
   visibility: visible;
