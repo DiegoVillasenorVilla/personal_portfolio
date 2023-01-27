@@ -29,3 +29,47 @@
  grid-gap: 40px;
  margin-bottom: 50px;
 }
+
+@media (min-width: 360px) and (max-width: 460px) {
+  .body-section{
+    border-top: 1px solid #ffffff;
+    width: 90%;
+    margin-top: 60px;
+  }
+
+  .body-main_container {
+    margin-top: 40px;
+    gap: 50px;
+  }
+
+  .body-main_container h1 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.13636px;
+  }
+
+  .body-images_container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .body-section{
+    border-top: 1px solid #ffffff;
+    width: 85%;
+    margin-top: 100px;
+  }
+
+  .body-main_container {
+    margin-top: 40px;
+    gap: 180px;
+  }
+
+  .body-main_container h1 {
+    font-size: 62px;
+    line-height: 62px;
+    letter-spacing: -2.04545px;
+  }
+
+}

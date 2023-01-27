@@ -70,8 +70,9 @@
   text-decoration: none;
 }
 
-.button-contact_code > a:hover, .button-contact_project > a:hover{
-  color:#4ee1a0;
+.button-contact_code > a:hover,
+.button-contact_project > a:hover {
+  color: #4ee1a0;
 }
 
 .figure-image:hover > .hidden-button_container {
@@ -82,7 +83,7 @@
 .project-info_container {
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 .project-info_container p {
@@ -102,4 +103,19 @@
   font-size: 14px;
   line-height: 28px;
   color: #d9d9d9;
+}
+
+@media (min-width: 360px) and (max-width: 460px) {
+  .figure-image {
+    height: 230px;
+    width: 330px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+  .figure-image{
+    height: 230px;
+    width: 330px;
+  }
 }

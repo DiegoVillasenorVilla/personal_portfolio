@@ -10,7 +10,7 @@
   width: 240px;
 }
 
-.hard-skill_container p {
+.skill-paragraph {
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 700;
@@ -21,11 +21,41 @@
   margin-bottom: 10px;
 }
 
-.hard-skill_container span {
+.description-paragraph{
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
   color: #d9d9d9;
+}
+
+@media (min-width: 360px) and (max-width: 460px) {
+  .hard-skills_section {
+    flex-flow: column wrap;
+    align-items: center;
+    width: 300px;
+  }
+
+  .skill-paragraph{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: center;
+  }
+
+  .description-paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+  .hard-skills_section{
+    width: 600px;
+    align-items: center;
+  }  
 }
