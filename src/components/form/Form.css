@@ -51,3 +51,21 @@
   letter-spacing: -0.166667px;
   color: #ff6f5b;
 }
+
+@media (min-width: 360px) and (max-width: 460px) {
+  .form-main_container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .input-textarea {
+    padding-bottom: 71px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .form-main_container {
+    align-items: center;
+    text-align: center;
+  }
+}
